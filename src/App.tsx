@@ -286,6 +286,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/course/:courseId" element={<CoursePage />} />
         <Route path="/ar/battery-pack" element={<ARBatteryPage />} />
+        <Route path="/ar/battery-real" element={React.createElement(require('./pages/ARBatteryRealPage').default)} />
         <Route path="/ar/:modelId" element={<ARViewer />} />
         <Route path="/progress" element={<ProgressDashboard />} />
       </Routes>

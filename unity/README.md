@@ -78,7 +78,10 @@ Tujuan: menyiapkan proyek Unity AR (Android/iOS) untuk AR yang stabil (plane det
 - AR membutuhkan device dengan sensor dan dukungan ARCore/ARKit
 - Izin kamera wajib
 
-Selanjutnya:
-- Buka folder `Assets/Scripts/` (yang kami sediakan) → drag & drop ke project Unity Anda
-- Ikuti langkah di atas untuk membuat scene `ARMain` dan assign skrip/komponen.
+Selanjutnya (otomatis lewat menu Tools):
+1) Copy folder `unity/Assets/Scripts` dan `unity/Assets/Editor` ke dalam folder `Assets/` di proyek Unity Anda.
+2) Di Unity, buka menu `Tools > EV AR > Create Reticle Prefab` (prefab reticle hijau dibuat otomatis di Assets/EVAR/Prefabs).
+3) Buka `Tools > EV AR > Create AR Scene (AR Foundation)` → scene `Assets/EVAR/Scenes/ARMain.unity` akan dibuat dengan komponen AR lengkap.
+4) Import model baterai (GLB/FBX), buat Prefab, lalu assign ke `TapToPlace.placeablePrefab` pada GameObject `AR Session Origin`.
+5) (Opsional) `Tools > EV AR > Export Starter Package…` untuk mengekspor paket `.unitypackage` siap dishare.
 

